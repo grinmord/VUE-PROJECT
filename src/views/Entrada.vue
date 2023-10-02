@@ -16,6 +16,7 @@ import Firma from '@/components/Firma.vue'
 import Email from '@/components/Email.vue'
 
 export default {
+  name:'entrada-item',
   components: { Cliente, Anuncio, Boletos, Firma, Email },
   data() {
     return {

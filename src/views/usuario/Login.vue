@@ -1,5 +1,11 @@
 <template>
   <div class="seccion">
-    Login
+    LoginComponent 
   </div>
 </template>
+
+<script>
+export default {
+  name: 'LoginComponent',
+};
+</script>

@@ -51,6 +51,7 @@
 
 <script>
 export default {
+  name:'boletos-item',
   data() {
     return {
       comision: 0,

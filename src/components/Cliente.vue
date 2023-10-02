@@ -20,6 +20,7 @@
 
 <script>
 export default {
+  name:'cliente-item',
   props: ['email'],
   data() {
     return {

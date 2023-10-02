@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  name:'email-item',
   props: ['emailRecibido'],
   data() {
     return {
@@ -15,7 +16,7 @@ export default {
     }
   },
   methods: {
-    actualizarEmail(event) {
+    actualizarEmail() {
       this.$emit('onCambioEmail', this.email)
     }
   },

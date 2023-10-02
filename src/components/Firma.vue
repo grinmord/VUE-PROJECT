@@ -14,6 +14,7 @@
 
 <script>
 export default {
+  name:'firma-item',
   data() {
     return {
       ctx: null,

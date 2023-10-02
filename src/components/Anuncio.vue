@@ -1,3 +1,4 @@
+import Anuncio from '@/components/Anuncio.vue';
 <template>
   <div class="anuncio">
     <transition name="fade" mode="out-in">
@@ -10,6 +11,7 @@
 
 <script>
 export default {
+  name:'anuncio-item',
   data() {
     return {
       presentaciones: [

@@ -1,5 +1,11 @@
 <template>
   <div class="seccion">
-    Home
+    Home 
   </div>
 </template>
+
+<script>
+export default {
+  name: 'homeComponent',
+};
+</script>
