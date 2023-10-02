@@ -3,9 +3,3 @@
     Perfil
   </div>
 </template>
-
-<script>
-export default {
-  name: 'perfilComponent',
-};
-</script>

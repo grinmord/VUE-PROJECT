@@ -1,11 +1,5 @@
 <template>
   <div class="seccion">
-    LoginComponent 
+    Login
   </div>
 </template>
-
-<script>
-export default {
-  name: 'LoginComponent',
-};
-</script>
