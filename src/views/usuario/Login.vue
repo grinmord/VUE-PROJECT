@@ -54,6 +54,22 @@ export default {
         return 
       }
 
+      let usuario = {
+        userName: 'newton',
+        nombres: 'Issac',
+        apellidos: 'Newton',
+        sexo: 'M',
+        descripcion: 'Descripcion',
+        biofrafia:  '',
+        fotoDePerfil
+      }
+
+      this.$store.state.commit('actualizarUsuario' , usuario)
+
+      let vocal= usuario.sexo && usuario.sex == 'F' ? 'a' : 'o'
+
+      let mensaje = `Bienvenid$(vocal) $(usuario.nombres)`
+
       alert('Consultando...')
     }
   },
