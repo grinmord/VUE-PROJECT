@@ -29,9 +29,3 @@
 }
 
 </style>
-
-<script>
-export default {
-  name: 'perfil-item',
-}
-</script>

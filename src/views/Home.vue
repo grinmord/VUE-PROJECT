@@ -23,9 +23,3 @@
 }
 
 </style>
-
-<script>
-export default {
-  name: 'home-item',
-}
-</script>

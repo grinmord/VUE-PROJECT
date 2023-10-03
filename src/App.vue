@@ -7,7 +7,7 @@
             <v-icon>home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>{{ 'Inicio' }}</v-list-tile-title>
+            <v-list-tile-title v-text="'Inicio'"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile @click="seleccionar('perfil')">
@@ -15,7 +15,7 @@
             <v-icon>account_circle</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>{{ 'perfil' }}</v-list-tile-title>
+            <v-list-tile-title v-text="'Perfil'"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile @click="seleccionar('registro')">
@@ -23,7 +23,7 @@
             <v-icon>contact_mail</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>{{ 'registro' }}</v-list-tile-title>
+            <v-list-tile-title v-text="'Registro'"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile @click="seleccionar('login')">
@@ -31,7 +31,7 @@
             <v-icon>arrow_forward</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>{{ 'ingresar' }}</v-list-tile-title>
+            <v-list-tile-title v-text="'Ingresar'"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
